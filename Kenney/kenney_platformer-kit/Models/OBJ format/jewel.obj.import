@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ccqtvlg55ict"
+path="res://.godot/imported/jewel.obj-caec010345a1d2a4cd7c1030df71e19c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/jewel.obj-caec010345a1d2a4cd7c1030df71e19c.mesh"]
+
+source_file="res://Kenney/kenney_platformer-kit/Models/OBJ format/jewel.obj"
+dest_files=["res://.godot/imported/jewel.obj-caec010345a1d2a4cd7c1030df71e19c.mesh", "res://.godot/imported/jewel.obj-caec010345a1d2a4cd7c1030df71e19c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

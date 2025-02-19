@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://5k2ql0hpwes7"
+path="res://.godot/imported/block-moving-blue.obj-be1e7b60e5051d8c5b657e6b1d1e1d5e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/block-moving-blue.obj-be1e7b60e5051d8c5b657e6b1d1e1d5e.mesh"]
+
+source_file="res://Kenney/kenney_platformer-kit/Models/OBJ format/block-moving-blue.obj"
+dest_files=["res://.godot/imported/block-moving-blue.obj-be1e7b60e5051d8c5b657e6b1d1e1d5e.mesh", "res://.godot/imported/block-moving-blue.obj-be1e7b60e5051d8c5b657e6b1d1e1d5e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

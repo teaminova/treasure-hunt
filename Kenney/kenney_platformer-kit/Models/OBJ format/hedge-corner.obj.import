@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cqngn5qbbffru"
+path="res://.godot/imported/hedge-corner.obj-fd1365924e3990d5228656a63ac6fd08.mesh"
+
+[deps]
+
+files=["res://.godot/imported/hedge-corner.obj-fd1365924e3990d5228656a63ac6fd08.mesh"]
+
+source_file="res://Kenney/kenney_platformer-kit/Models/OBJ format/hedge-corner.obj"
+dest_files=["res://.godot/imported/hedge-corner.obj-fd1365924e3990d5228656a63ac6fd08.mesh", "res://.godot/imported/hedge-corner.obj-fd1365924e3990d5228656a63ac6fd08.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
