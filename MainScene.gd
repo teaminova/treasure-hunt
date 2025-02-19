@@ -4,7 +4,7 @@ extends Node
 @onready var time_label = $TimeLabel
 
 var total_treasures = 10
-var treasures_found = 0  # Adjust based on your treasure count
+var treasures_found = 0
 
 func _ready():
 	timer.start()
@@ -29,16 +29,14 @@ func _on_game_timer_timeout():
 	end_game(false)
 	
 func end_game(won: bool):
-	# Unlock the mouse
 	Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
 	
-	# Load the end screen
 	var end_screen = load("res://EndScreen.tscn").instantiate()
 	end_screen.game_result = "You Won!\nAll " + str(total_treasures) + " treasures are found!" if won else "Time's up! You lost!\nTreasures found: " + str(treasures_found) + "/" + str(total_treasures)
 	
-	get_tree().root.add_child(end_screen)  # Show end screen
-	get_tree().current_scene.queue_free()  # Remove current game scene
+	get_tree().root.add_child(end_screen) 
+	get_tree().current_scene.queue_free()  
 
 func _input(event):
-	if event.is_action_pressed("ui_cancel"):  # 'ui_cancel' is mapped to Esc by default
-		get_tree().quit()  # Quit the game
+	if event.is_action_pressed("ui_cancel"):
+		get_tree().quit()
